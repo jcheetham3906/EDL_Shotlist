@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <title>EDL to Sheets</title>
+</head>
+<body>
+    <h1>Upload EDL and Video</h1>
+    <form method="post" enctype="multipart/form-data">
+        <label for="edl_file">EDL File:</label>
+        <input type="file" name="edl_file" id="edl_file" required><br><br>
+        <label for="video_file">Video File:</label>
+        <input type="file" name="video_file" id="video_file" required><br><br>
+        <label for="sheet_title">Google Sheet Title:</label>
+        <input type="text" name="sheet_title" id="sheet_title" required><br><br>
+        <label for="credentials_file">Google Credentials File (credentials.json):</label>
+        <input type="file" name="credentials_file" id="credentials_file" required><br><br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
