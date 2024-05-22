@@ -1,1 +1,5 @@
-.vercel
+venv/
+*.pyc
+__pycache__/
+instance/
+.webassets-cache
